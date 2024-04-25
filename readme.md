@@ -32,6 +32,8 @@ in a for-each loop to read lines from a text file.
 - The `FileReader` class should accept a file path as a parameter.
 - Implement an iterator that returns one line of the file at a time.
 
+<img src="assn-imgs/img_24.png" width="550px">
+
 #### Starter Code:
 You have been provided with some code get you started. The `FileReader` 
 class has been created for you, but it is incomplete.
@@ -49,6 +51,8 @@ Develop a `LineReader` class to iterate over words in a given string.
 - Implement an iterator that returns each word in the string, 
   assuming words are separated by spaces and contain no punctuation.
 
+<img src="assn-imgs/img_26.png" width="500px">
+
 #### Starter Code:
 You have been provided with some code get you started. The `LineReader`
 class has been created for you, but it is incomplete.
@@ -65,6 +69,8 @@ Implement a `Fibonacci` class that generates a sequence of Fibonacci numbers up 
 - The `Fibonacci` class should accept a positive integer `n`.
 - The iterator should return each Fibonacci number sequentially from the first to the nth number.
 
+<img src="assn-imgs/img_25.png" width="650px">
+
 #### Starter Code:
 You have been provided with some code get you started. The `Fibonacci`
 class has been created for you, but it is incomplete.
@@ -80,6 +86,8 @@ Create a `DataGrid` class that stores a 2D array of `double` values to iterate o
 #### Requirements:
 - The `DataGrid` class should accept a 2D array of `double` values as a parameter.
 - Implement an iterator that returns each number in the grid, moving through each row sequentially.
+
+<img src="assn-imgs/img_23.png" width="500px">
 
 #### Starter Code:
 You have been provided with some code get you started. The `DataGrid`
@@ -99,6 +107,12 @@ sequence based on the previous two numbers.
 Similarly, the `DataGrid` iterator should not copy the entire grid into a
 new data structure. Instead, it should iterate over the existing grid
 without creating additional memory overhead.
+
+### Requirement: Concurrent Modification
+
+For this assignment, you do **not** need to worry about concurrent modification
+of the data structures. You can assume that the data structures will not be
+modified while they are being iterated over.
 
 ## Testing
 You are required to write comprehensive tests using JUnit 5 
