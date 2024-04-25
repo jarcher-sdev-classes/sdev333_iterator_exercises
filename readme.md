@@ -159,7 +159,7 @@ doubles row-by-row.
 
 <img src="assn-imgs/img_10.jpg" width="200px">
 
-1. Ensure your code is correctly pushed to your GitHub classroom repository.
-2. Verify that your tests are passing successfully.
-3. Verify that your assignment is passing a linter check using the IntelliJ
+1. Verify that your tests are passing successfully.
+2. Verify that your assignment is passing a linter check using the IntelliJ
    inspector tool.
+3. Lastly, ensure your code is correctly pushed to your GitHub classroom repository.
