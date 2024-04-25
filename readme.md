@@ -15,15 +15,16 @@ and mathematical sequences in Java.
 - Apply iterator patterns to solve practical problems involving 
   file reading, text processing, and generating sequences.
 
-<hr>
-
 ## Assignment Details
 
 Implement the following classes in Java. Each class should implement the
 `Iterable` interface and provide an iterator that allows you to iterate
 over the elements of the class in a for-each loop.
 
-### 1. FileReader Class <img src="assn-imgs/img_6.png" width="100px" style="float: right; margin-left: 10px">****
+### 1. FileReader Class 
+
+<img src="assn-imgs/img_6.png" width="100px">
+
 Create a `FileReader` class. This class should be capable of being used 
 in a for-each loop to read lines from a text file.
 
@@ -37,7 +38,10 @@ class has been created for you, but it is incomplete.
 
 <img src="assn-imgs/img_2.png" width="400px" style="border: 1px solid beige">
 
-### 2. LineReader Iterator <img src="assn-imgs/img_8.png" width="100px" style="float: right; margin-left: 10px">
+### 2. LineReader Iterator 
+
+<img src="assn-imgs/img_8.png" width="100px">
+
 Develop a `LineReader` class to iterate over words in a given string.
 
 #### Requirements:
@@ -51,7 +55,10 @@ class has been created for you, but it is incomplete.
 
 <img src="assn-imgs/img_3.png" width="300px" style="border: 1px solid beige">
 
-### 3. Fibonacci Iterator <img src="assn-imgs/img_9.png" width="100px" style="float: right; margin-left: 10px">
+### 3. Fibonacci Iterator 
+
+<img src="assn-imgs/img_9.png" width="100px">
+
 Implement a `Fibonacci` class that generates a sequence of Fibonacci numbers up to a specified `n`.
 
 #### Requirements:
@@ -64,7 +71,10 @@ class has been created for you, but it is incomplete.
 
 <img src="assn-imgs/img_4.png" width="400px" style="border: 1px solid beige">
 
-### 4. DataGrid Iterator <img src="assn-imgs/img_7.png" width="100px" style="float: right; margin-left: 10px">
+### 4. DataGrid Iterator 
+
+<img src="assn-imgs/img_7.png" width="100px">
+
 Create a `DataGrid` class that stores a 2D array of `double` values to iterate over each element row-by-row.
 
 #### Requirements:
@@ -77,11 +87,10 @@ class has been created for you, but it is incomplete.
 
 <img src="assn-imgs/img_5.png" width="400px" style="border: 1px solid beige">
 
-<hr>
-
-<img src="assn-imgs/img_11.png" width="150px" style="float: right; margin-left: 10px">
-
 ### Requirement: Efficient Implementations
+
+<img src="assn-imgs/img_11.png" width="150px">
+
 Ensure that your iterators are implemented efficiently. For example, the
 `Fibonacci` iterator should not recalculate the entire sequence each time
 `next()` is called. Instead, it should calculate the next number in the
@@ -90,8 +99,6 @@ sequence based on the previous two numbers.
 Similarly, the `DataGrid` iterator should not copy the entire grid into a
 new data structure. Instead, it should iterate over the existing grid
 without creating additional memory overhead.
-
-<hr>
 
 ## Testing
 You are required to write comprehensive tests using JUnit 5 
@@ -147,8 +154,6 @@ doubles row-by-row.
 - `testSingleRowGrid()`: Verify correct iteration over a grid with a single row.
 - `testMultipleRowsGrid()`: Test iteration over multiple rows.
 - `testEmptyGrid()`: Check behavior when the grid is empty.
-
-<hr>
 
 ## Submitting your work
 
