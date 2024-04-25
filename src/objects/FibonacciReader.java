@@ -11,7 +11,6 @@ public class FibonacciReader {
     public int getN() {
         return n;
     }
-
     public void setN(int n) {
         this.n = n;
     }
@@ -23,3 +22,4 @@ public class FibonacciReader {
 
     // TODO: Add the iterator class
 }
+

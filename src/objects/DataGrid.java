@@ -13,7 +13,6 @@ public class DataGrid {
     public double[][] getGrid() {
         return grid;
     }
-
     public void setGrid(double[][] grid) {
         this.grid = grid;
     }
@@ -25,3 +24,4 @@ public class DataGrid {
 
     // TODO: Add the iterator class
 }
+

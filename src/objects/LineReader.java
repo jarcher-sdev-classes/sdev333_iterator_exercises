@@ -11,7 +11,6 @@ public class LineReader {
     public String getLine() {
         return line;
     }
-
     public void setLine(String line) {
         this.line = line;
     }
@@ -23,3 +22,4 @@ public class LineReader {
 
     // TODO: Add the iterator class
 }
+
